@@ -30,7 +30,7 @@ variable "PATH_TO_AWS_KEY_NAME" {
   default = "<VAR>"
 }
 
-variable "PATH_TO_INSTANCE_TYPE}" {
+variable "PATH_TO_INSTANCE_TYPE" {
   default = "<VAR>"
 }
 
