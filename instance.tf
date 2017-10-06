@@ -10,7 +10,6 @@ resource "aws_instance" "example" {
   ami = "${lookup(var.AMIS, var.AWS_REGION)}"
   instance_type = "${file("${var.INSTANCE_TYPE}")}"
   key_name = "${file("${var.AWS_KEY_NAME}")}"
-  user_data = "${file("userdata.sh")}"
   private_ip = ["${file("${var.PATH_TO_PRIVATE_IP}")}"]
   security_groups = ["${file("${var.PATH_TO_SECURITY}")}"]
   tags {
