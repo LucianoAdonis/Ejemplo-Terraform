@@ -26,7 +26,7 @@ variable "PATH_TO_ROLE" {
   default = "<VAR>"
 }
 
-variable "PATH_TO_AWS_KEY_NAME}" {
+variable "PATH_TO_AWS_KEY_NAME" {
   default = "<VAR>"
 }
 
